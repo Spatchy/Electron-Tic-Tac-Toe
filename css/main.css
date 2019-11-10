@@ -1,0 +1,28 @@
+.column{
+    float: left;
+}
+
+.cell{
+    margin-left: 5px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 50px;
+    width: 50px;
+    font-size: 30pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.isX{
+    color: green;
+}
+
+.isO{
+    color: red;
+}
+
+.winningSet{
+    background-color: yellow;
+}
