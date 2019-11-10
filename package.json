@@ -1,0 +1,15 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "An electron test using tic-tac-toe",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spatchy",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.1"
+  }
+}
