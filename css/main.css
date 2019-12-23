@@ -1,3 +1,12 @@
+body{
+    display: flex;
+    align-items: center;
+}
+
+#topWrapper{
+    margin: 0 auto;
+}
+
 .column{
     float: left;
 }
@@ -25,4 +34,10 @@
 
 .winningSet{
     background-color: yellow;
+}
+
+#btnWrapper{
+    width: 100%;
+    margin: 0 auto;
+    display: none;
 }

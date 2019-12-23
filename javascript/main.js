@@ -11,6 +11,9 @@ window.onload = function() {
             claimCell(clickedCell, currentPlayer);
         }
         )
+        document.getElementById("newGameBtn").addEventListener("click", function () {
+            window.location.reload(false);
+        })
     }
 }
 
@@ -57,7 +60,7 @@ function checkWins(player){
         }
         //update the top label
         document.getElementById("turnLabel").innerHTML = "Player " + player + " wins!";
-        
+        document.getElementById("btnWrapper").style = "display: block;";
         return true;
     }
     else{
